@@ -7,12 +7,6 @@ main method, or use Maven:
 $ mvn spring-boot:run
 ```
 
-## Pre-requisites
-
-You need to be running redis locally (there is a `docker-compose.yml` if you would
-like to use that). This is to support broadcast of config changes to client apps
-via Spring Cloud Stream. If you want to play and don't need that feature just
-comment out the monitor and redis dependencies.
 
 ## Resources
 
