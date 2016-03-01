@@ -1,4 +1,4 @@
-package demo;
+package com.majesco.digitalio.configserver;
 
 import static org.junit.Assert.assertEquals;
 
